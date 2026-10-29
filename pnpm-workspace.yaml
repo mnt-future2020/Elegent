@@ -1,0 +1,5 @@
+# Allow dependency build scripts required in CI/production builds
+onlyBuiltDependencies:
+  - sharp
+allowBuilds:
+  sharp: true
