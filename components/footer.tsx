@@ -1,6 +1,6 @@
 "use client"
 
-import { Facebook, Instagram, Twitter, Linkedin, Youtube, Phone, Mail, MapPin, Send, Sparkles } from "lucide-react"
+import { Facebook, Instagram, Twitter, Linkedin, Youtube, Phone, Mail, MapPin, Send, Heart } from "lucide-react"
 import { WhatsAppIcon } from "@/components/ui/whatsapp-icon"
 import { Logo } from "@/components/logo"
 import { useContact } from "@/hooks/use-contact"
@@ -210,7 +210,7 @@ export function Footer() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3 sm:py-4">
           <p className="text-center text-xs sm:text-sm text-gray-400 flex items-center justify-center gap-2 flex-wrap">
             <span>&copy; {new Date().getFullYear()} Elegant Care Services. All rights reserved.</span>
-            <Sparkles className="h-3 w-3 sm:h-4 sm:w-4 text-[#8CC63F] inline-block" />
+            <Heart className="h-3 w-3 sm:h-4 sm:w-4 text-red-500 fill-red-500 inline-block" />
             <span className="hover:text-[#8CC63F] transition-colors">
               <a href="https://clickagain.in/" target="_blank" rel="noopener noreferrer">
                 Developed by Click Again
