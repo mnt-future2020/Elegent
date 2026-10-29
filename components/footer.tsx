@@ -212,8 +212,8 @@ export function Footer() {
             <span>&copy; {new Date().getFullYear()} Elegant Care Services. All rights reserved.</span>
             <Sparkles className="h-3 w-3 sm:h-4 sm:w-4 text-[#8CC63F] inline-block" />
             <span className="hover:text-[#8CC63F] transition-colors">
-              <a href="https://mntfuture.com/" target="_blank" rel="noopener noreferrer">
-                Developed by MnT
+              <a href="https://clickagain.in/" target="_blank" rel="noopener noreferrer">
+                Developed by Click Again
               </a>
             </span>
           </p>
